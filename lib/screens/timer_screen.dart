@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+// 타이머 필요한 상태
+// 1. 타이머 시간
+// 2. 현재까지 완료한 개수
+// 3. 현재 타이머 상태
+
 class TimerScreen extends StatefulWidget {
   @override
   _TimerScreenState createState() => _TimerScreenState();
